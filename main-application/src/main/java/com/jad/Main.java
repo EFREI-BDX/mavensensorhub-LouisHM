@@ -16,5 +16,7 @@ public enum Main {
         application.setReportGenerator(new ReportGenerator());
         application.setUserInterface(new UserInterface(application));
         application.start();
+        System.out.println("coucou");
     }
+
 }
